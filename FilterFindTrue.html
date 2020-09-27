@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homework sesi 2</title>
+    </head>
+    <body>
+        <p><b><font size = "5">Homework Sesi 2</font></b></p>
+        <p>* Melakukan filter data yang memiliki present = true</p>
+        <p>* Cetak dengan console.log</p>
+
+        <script>
+            const videoData = [
+                {
+                    name: 'Mis Scarlet',
+                    present: true,
+                    rooms:[
+                        {kitchen: false},
+                        {ballroom: false},
+                        {conservatory: false},
+                        {'dining room': false},
+                        {'billiard room': false},
+                        {library: false}
+                    ]
+                },
+                {
+                    name: 'Mrs. White',
+                    present: false,
+                    rooms:[
+                        {kitchen: false},
+                        {ballroom: false},
+                        {conservatory: false},
+                        {'dining room': false},
+                        {'billiard room': false},
+                        {library: false}
+                    ] 
+                },
+                {
+                    name: 'Raverend Green',
+                    present: true,
+                    rooms:[
+                        {kitchen: false},
+                        {ballroom: false},
+                        {conservatory: false},
+                        {'dining room': false},
+                        {'billiard room': false},
+                        {library: false}
+                    ]
+                },
+                {
+                    name: 'Rusty',
+                    present: false,
+                    rooms:[
+                        {kitchen: false},
+                        {ballroom: false},
+                        {conservatory: false},
+                        {'dining room': false},
+                        {'billiard room': false},
+                        {library: false}
+                    ]
+                },
+                {
+                    name: 'Colonel Mustard',
+                    present: true,
+                    rooms:[
+                        {kitchen: false},
+                        {ballroom: false},
+                        {conservatory: false},
+                        {'dining room': false},
+                        {'billiard room': false},
+                        {library: false}
+                    ]
+                },
+                {
+                    name: 'Professor Plum',
+                    present: true,
+                    rooms:[
+                        {kitchen: false},
+                        {ballroom: false},
+                        {conservatory: false},
+                        {'dining room': false},
+                        {'billiard room': false},
+                        {library: false}
+                    ]
+                }
+            ];
+            
+            let benar = videoData.filter((videoData) => videoData.present === true);
+            console.log(benar);
+            console.table(benar);
+        </script>
+
+    </body>
+</html>
