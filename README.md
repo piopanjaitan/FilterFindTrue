@@ -2,7 +2,7 @@
 FilterFindTrue is a homework assignment of Session 2 React and React Native Basic course by Hacktiv8
 
 ## Problem
-Filter the following data that has "present = true". then print how many results and print the results with console.log.
+Filter the following data that has "present = true". Then print how many results and print the results with console.log.
 ```javascript
 const videoData = [
                 {
