@@ -9,4 +9,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## Link for the course
-[BasicHaktiv8](https://hacktiv8.com/react/basic/jakarta/)
+[BasicHacktiv8](https://hacktiv8.com/react/basic/jakarta/)
