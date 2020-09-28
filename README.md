@@ -82,6 +82,7 @@ const videoData = [
 
 ## Installation
 Just open "Inspect" or "Inspect Element" in your browser and see the console tab.
+
 Just hit refresh again to see 'console.table' execute.
 
 ## Contributing
